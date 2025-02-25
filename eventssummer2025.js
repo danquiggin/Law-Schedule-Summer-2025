@@ -5,7 +5,6 @@ const scheduleData = {
             "startTime": "06:00 PM",
             "endTime": "08:45 AM",
             "daysOfWeek": [
-                2,
                 4
             ],
             "extendedProps": {
@@ -54,7 +53,6 @@ const scheduleData = {
             "startTime": "06:00 PM",
             "endTime": "08:45 AM",
             "daysOfWeek": [
-                2,
                 4
             ],
             "extendedProps": {
@@ -139,7 +137,6 @@ const scheduleData = {
             "startTime": "05:00 PM",
             "endTime": "08:45 AM",
             "daysOfWeek": [
-                2,
                 4
             ],
             "extendedProps": {
@@ -183,6 +180,22 @@ const scheduleData = {
                 "capacity": "15",
                 "year": "",
                 "credit": "3"
+            }
+        },
+        {
+            "title": "Federal Tax Policy Seminar",
+            "startTime": "04:10 PM",
+            "endTime": "05:50 PM",
+            "daysOfWeek": [
+                2
+            ],
+            "extendedProps": {
+                "instructor": "Lester, T",
+                "room": "Online",
+                "modality": "OS, WR",
+                "capacity": "16",
+                "year": "",
+                "credit": "2"
             }
         },
         {
