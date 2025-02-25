@@ -53,6 +53,7 @@ const scheduleData = {
             "startTime": "06:00 PM",
             "endTime": "08:45 AM",
             "daysOfWeek": [
+                2,
                 4
             ],
             "extendedProps": {
@@ -137,6 +138,7 @@ const scheduleData = {
             "startTime": "05:00 PM",
             "endTime": "08:45 AM",
             "daysOfWeek": [
+                2,
                 4
             ],
             "extendedProps": {
