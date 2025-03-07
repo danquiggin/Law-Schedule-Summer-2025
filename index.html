@@ -41,6 +41,9 @@
   .event-year-1 {
     background-color: #2ec414;  /* Set the color for Year 1 */
   }
+  .event-online {
+    background-color: #ff7676;  /* Set the color for online classes*/
+  }
 
   .event-default {
     background-color: #6495ED;  /* Default color for other events */
@@ -144,12 +147,21 @@
               const eventDiv = document.createElement('div');
               eventDiv.classList.add('event');
 
+               // Check if the class is online
+              if (event.extendedProps.modality.toString().includes("O")) {
+                eventDiv.classList.add('event-online');
+
+                }
+
               // Check if the "Year" is 1 and apply the appropriate class
-              if (event.extendedProps.year && event.extendedProps.year.toString().includes("1")) {
+              else if (event.extendedProps.year && event.extendedProps.year.toString().includes("1")) {
                 eventDiv.classList.add('event-year-1');
+
               } else {
                 eventDiv.classList.add('event-default');
               }
+
+
 
               // Populate the event details
               eventDiv.innerHTML = `${event.title}<br><br>${event.extendedProps.instructor}<br><br>Room: ${event.extendedProps.room} <br>${event.startTime}:${event.endTime}<br>${event.extendedProps.modality}`;
