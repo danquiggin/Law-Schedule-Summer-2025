@@ -1,6 +1,22 @@
 const scheduleData = {
     "events": [
         {
+            "title": "Professional Responsibility",
+            "startTime": "06:00 PM",
+            "endTime": "08:45 AM",
+            "daysOfWeek": [
+                2
+            ],
+            "extendedProps": {
+                "instructor": "Cole, A",
+                "room": "Online",
+                "modality": "OS",
+                "capacity": "35",
+                "year": "",
+                "credit": "3"
+            }
+        },
+        {
             "title": "Basic Federal Taxation (see Note 4)",
             "startTime": "06:00 PM",
             "endTime": "08:45 AM",
@@ -30,6 +46,22 @@ const scheduleData = {
                 "modality": "B",
                 "capacity": "25",
                 "year": "LLM",
+                "credit": "3"
+            }
+        },
+        {
+            "title": "Computers and the Law Seminar",
+            "startTime": "06:00 PM",
+            "endTime": "08:45 AM",
+            "daysOfWeek": [
+                3
+            ],
+            "extendedProps": {
+                "instructor": "Sites, B",
+                "room": "Online",
+                "modality": "OS, WR",
+                "capacity": "15",
+                "year": "",
                 "credit": "3"
             }
         },
@@ -66,6 +98,23 @@ const scheduleData = {
             }
         },
         {
+            "title": "Policy Surveillance & Legal Epidemiology (see Note 2) ",
+            "startTime": "05:00 PM",
+            "endTime": "08:45 AM",
+            "daysOfWeek": [
+                2,
+                4
+            ],
+            "extendedProps": {
+                "instructor": "Kershner, S & Johnston, K",
+                "room": "Online",
+                "modality": "OS, OA",
+                "capacity": "20",
+                "year": "",
+                "credit": "3"
+            }
+        },
+        {
             "title": "Family Law",
             "startTime": "06:00 PM",
             "endTime": "08:45 AM",
@@ -83,6 +132,23 @@ const scheduleData = {
             }
         },
         {
+            "title": "Federal Tax Policy Seminar",
+            "startTime": "06:00 PM",
+            "endTime": "08:45 AM",
+            "daysOfWeek": [
+                2,
+                4
+            ],
+            "extendedProps": {
+                "instructor": "Lester, T",
+                "room": "Online",
+                "modality": "OS, WR",
+                "capacity": "16",
+                "year": "",
+                "credit": "3"
+            }
+        },
+        {
             "title": "Real Estate Transactions (see Note 1)",
             "startTime": "06:00 PM",
             "endTime": "08:45 AM",
@@ -95,6 +161,22 @@ const scheduleData = {
                 "room": "242",
                 "modality": "B",
                 "capacity": "45",
+                "year": "",
+                "credit": "3"
+            }
+        },
+        {
+            "title": "Lawyering: Practice Ready Writing",
+            "startTime": "06:00 PM",
+            "endTime": "08:45 AM",
+            "daysOfWeek": [
+                2
+            ],
+            "extendedProps": {
+                "instructor": "Vath, M",
+                "room": "Online",
+                "modality": "OS, WR",
+                "capacity": "12",
                 "year": "",
                 "credit": "3"
             }
@@ -149,6 +231,22 @@ const scheduleData = {
                 "year": "",
                 "credit": "3"
             }
+        },
+        {
+            "title": "Externship Seminar",
+            "startTime": "04:10 PM",
+            "endTime": "05:50 PM",
+            "daysOfWeek": [
+                2
+            ],
+            "extendedProps": {
+                "instructor": "Silverthorne, B",
+                "room": "Online",
+                "modality": "OS",
+                "capacity": "20",
+                "year": "",
+                "credit": "1"
+            }
         }
     ],
     "online_classes": [
@@ -180,6 +278,19 @@ const scheduleData = {
                 "room": "Online",
                 "modality": "OS, WR",
                 "capacity": "15",
+                "year": "",
+                "credit": "3"
+            }
+        },
+        {
+            "title": "Copyrights",
+            "startTime": "N/A",
+            "endTime": "N/A",
+            "extendedProps": {
+                "instructor": "Pila, J",
+                "room": "Online",
+                "modality": "OA",
+                "capacity": "30",
                 "year": "",
                 "credit": "3"
             }
@@ -219,6 +330,19 @@ const scheduleData = {
             }
         },
         {
+            "title": "International Criminal Law",
+            "startTime": "N/A",
+            "endTime": "N/A",
+            "extendedProps": {
+                "instructor": "Pearce, B",
+                "room": "Online",
+                "modality": "OA",
+                "capacity": "30",
+                "year": "",
+                "credit": "3"
+            }
+        },
+        {
             "title": "Lawyering: Practice Ready Writing",
             "startTime": "06:00 PM",
             "endTime": "08:45 AM",
@@ -248,6 +372,19 @@ const scheduleData = {
                 "capacity": "20",
                 "year": "",
                 "credit": "1"
+            }
+        }
+    ],
+    "tbd_classes": [
+        {
+            "title": "Externship - Summer",
+            "extendedProps": {
+                "instructor": "TBD",
+                "room": "TBD",
+                "modality": "F2F",
+                "capacity": "60",
+                "year": "",
+                "credit": "2-6 (var)"
             }
         }
     ]
